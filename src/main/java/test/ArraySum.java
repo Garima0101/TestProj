@@ -13,7 +13,7 @@ public class ArraySum {
 		System.out.println(twoSum(nums, 9));
 	}
 
-	public static Object[] twoSum(int[] nums, int target) {
+	public static List<Integer> twoSum(int[] nums, int target) {
 		// List<int[]> arrList = Arrays.asList(nums);
 		List<Integer> arrList = new ArrayList<Integer>();
 		// int[] arrList = { } ;
@@ -30,9 +30,8 @@ public class ArraySum {
 			}
 
 		}
-		return arrList.toArray();
 
-		// return arrList;
+		return arrList;
 
 	}
 
